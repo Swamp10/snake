@@ -11,11 +11,11 @@ namespace Snake
             int y1 = 2;
             char sym1 = '*';
             **/
-            Point p1 = new Point();
-            p1.x = 3;
-            p1.y = 2;
-            p1.sym = '*';
+            Point p1 = new Point(3, 2, '*');
             p1.Draw();
+
+            Point p2 = new Point(5, 4, '?');
+            p2.Draw();
             Console.ReadLine();
         }
     }
